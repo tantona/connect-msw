@@ -1,0 +1,25 @@
+{
+  "name": "msw-connectrpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1",
+    "@buf/connectrpc_eliza.bufbuild_es": "^1.10.0-20230913231627-233fca715f49.1",
+    "@buf/connectrpc_eliza.connectrpc_es": "^1.5.0-20230913231627-233fca715f49.1",
+    "@buf/connectrpc_eliza.connectrpc_query-es": "^1.4.2-20230913231627-233fca715f49.1"
+  },
+  "dependencies": {
+    "@connectrpc/connect": "^1.5.0",
+    "@connectrpc/connect-web": "^1.5.0",
+    "msw": "^2.4.9"
+  }
+}
